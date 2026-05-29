@@ -1,0 +1,63 @@
+{
+  "users": {
+    "data": [
+      {
+        "id": "89bba08c-d580-4f1e-b7d6-1065e0e0e7dc",
+        "name": "Rohit Kumar",
+        "email": "rohitkumar285651@gmail.com",
+        "handle": "rohitkumar",
+        "avatar": "https://hybvsgxqstnxamdkijsk.supabase.co/storage/v1/object/public/images/profiles/89bba08c-d580-4f1e-b7d6-1065e0e0e7dc.jpg",
+        "color": null,
+        "aura": 120,
+        "role": [
+          "Student"
+        ],
+        "year": "2nd Year",
+        "building": "Real world project",
+        "stack": [
+          "C++",
+          "Python",
+          "Java"
+        ],
+        "followers": 1,
+        "following": 5,
+        "bio": "",
+        "college": "Jaipur National University",
+        "created_at": "2026-04-19T22:00:28.413778+00:00",
+        "branch": "ECE",
+        "github_handle": "",
+        "profile_completed": true,
+        "aura_points": 120,
+        "current_streak": 1,
+        "longest_streak": 3,
+        "last_challenge_completed_on": "2026-05-15",
+        "updated_at": "2026-05-15T16:28:56.50508+00:00",
+        "is_admin": false,
+        "fcm_token": "eXAmEdYURI62B6tH8Dt5Z2:APA91bEIElbkirR4uxHoxD9V5SZJGdp1M9Q4lTx3QErS3ORXaTLOfCOjIzSfffICe_2WQDo0NQuSHhSXCZF1w3WHhAcFeVjXwU8yNQku09KHCxmJkAwowTQ"
+      }
+    ],
+    "error": null
+  },
+  "projects": {
+    "data": null,
+    "error": {
+      "code": "PGRST205",
+      "details": null,
+      "hint": "Perhaps you meant the table 'public.posts'",
+      "message": "Could not find the table 'public.projects' in the schema cache"
+    }
+  },
+  "activities": {
+    "data": null,
+    "error": {
+      "code": "PGRST205",
+      "details": null,
+      "hint": "Perhaps you meant the table 'public.question_votes'",
+      "message": "Could not find the table 'public.activities' in the schema cache"
+    }
+  },
+  "challenges": {
+    "data": [],
+    "error": null
+  }
+}
