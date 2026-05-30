@@ -24,3 +24,13 @@
 - Environments: .env.local
 ✓ Ready in 658ms
 
+○ Compiling / ...
+ GET / 200 in 18.4s (next.js: 16.0s, application-code: 2.4s)
+ GET / 200 in 373ms (next.js: 14ms, application-code: 358ms)
+▲ Next.js 16.2.6 (webpack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.7:3000
+- Environments: .env.local
+✓ Ready in 997ms
+
+○ Compiling / ...
