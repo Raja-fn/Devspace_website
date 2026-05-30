@@ -136,3 +136,7 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
   64 |           'postgres_changes',
   65 |           { event: 'INSERT', schema: 'public', table: 'notifications', filter: `user_id=eq...
   66 |           async (payload) => {
+[browser] Image with src "/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[browser] Image with src "/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading

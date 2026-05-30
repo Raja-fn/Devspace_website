@@ -419,7 +419,7 @@ export function Avatar({ url, initial = 'U', size, ring }: { url?: string; initi
   const cls = `rounded-full object-cover shrink-0 ${ring ? 'ring-1 ring-[#f5c140]/25' : 'ring-1 ring-white/8'}`
   
   if (url && (url.startsWith('http') || url.startsWith('/'))) {
-    return <Image src={url} alt="Avatar" width={size} height={size} className={cls} style={{ width: size, height: size }} />
+    return <img src={url} alt="Avatar" width={size} height={size} className={cls} style={{ width: size, height: size }} />
   }
   
   return (
