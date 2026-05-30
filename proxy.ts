@@ -4,7 +4,7 @@ import type { NextRequest } from 'next/server'
 // Protected routes — require authentication
 const PROTECTED = ['/feed']
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   // TEMPORARILY DISABLED: Auth protection bypassed for dev mode
   return NextResponse.next()
 

@@ -186,6 +186,7 @@ export default function DiscoverPage() {
                   whileHover={{ x: 6, boxShadow: '0 8px 24px rgba(245, 193, 64, 0.08)' }}
                   className="rounded-2xl border border-white/10 bg-gradient-to-r from-white/[0.05] to-white/[0.02] hover:border-white/20 p-5 transition-all group"
                 >
+                  <div className="flex items-center gap-4">
                     <div className="w-10 h-10 rounded-full bg-[#f5c140]/20 flex items-center justify-center shrink-0">
                       <span className="text-xs font-bold text-[#f5c140]">#{idx}</span>
                     </div>
