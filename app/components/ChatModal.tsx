@@ -30,8 +30,9 @@ export function ChatModal({ isOpen, onClose, currentUser, targetUser }: any) {
       if (isMounted) fetchMessages()
     }, 4000)
 
+    const uniqueSuffix = Math.random().toString(36).substring(7)
     const channel = supabase
-      .channel(`chat_room_${[currentUser.id, targetUser.id].sort().join('_')}`)
+      .channel(`chat_room_${[currentUser.id, targetUser.id].sort().join('_')}_${uniqueSuffix}`)
       .on('postgres_changes', { 
         event: 'INSERT', 
         schema: 'public', 

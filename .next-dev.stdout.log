@@ -51,3 +51,8 @@
 
 ○ Compiling /feed ...
  GET /feed 200 in 17.5s (next.js: 13.1s, proxy.ts: 606ms, application-code: 3.8s)
+○ Compiling /opportunities ...
+ GET /feed 200 in 228ms (next.js: 53ms, proxy.ts: 82ms, application-code: 92ms)
+ GET /opportunities 200 in 6.7s (next.js: 4.1s, application-code: 2.6s)
+ GET /leaderboard 200 in 4.5s (next.js: 3.2s, application-code: 1263ms)
+ GET /profile 200 in 4.0s (next.js: 2.1s, application-code: 1872ms)

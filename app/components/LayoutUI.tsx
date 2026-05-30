@@ -58,8 +58,9 @@ export function TopNavbar({ avatarUrl, userName, userInitial, search, setSearch,
       }
 
       // 2. Subscribe to real-time changes
+      const uniqueSuffix = Math.random().toString(36).substring(7)
       channel = supabase
-        .channel(`user-notifications-${user.id}`)
+        .channel(`user-notifications-${user.id}-${uniqueSuffix}`)
         .on(
           'postgres_changes',
           { event: 'INSERT', schema: 'public', table: 'notifications', filter: `user_id=eq.${user.id}` },

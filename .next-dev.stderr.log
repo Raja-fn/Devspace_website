@@ -92,3 +92,47 @@ See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
  Detected additional lockfiles: 
    * D:\Devspace_website\devspace-web\package-lock.json
 
+[browser] ⨯ unhandledRejection: Error: cannot add `postgres_changes` callbacks for realtime:user-notifications-90dea1d7-cffd-4b31-9bb0-6ca253956a75 after `subscribe()`.
+    at setupNotifications (app\components\LayoutUI.tsx:63:10)
+  61 |       channel = supabase
+  62 |         .channel(`user-notifications-${user.id}`)
+> 63 |         .on(
+     |          ^
+  64 |           'postgres_changes',
+  65 |           { event: 'INSERT', schema: 'public', table: 'notifications', filter: `user_id=eq...
+  66 |           async (payload) => {
+[browser] Image with src "https://hybvsgxqstnxamdkijsk.supabase.co/storage/v1/object/public/images/profiles/9911179d-11e5-45e9-a3d4-b2e8ea46eab1.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[browser] Image with src "/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[browser] ⨯ unhandledRejection: Error: cannot add `postgres_changes` callbacks for realtime:user-notifications-90dea1d7-cffd-4b31-9bb0-6ca253956a75 after `subscribe()`.
+    at setupNotifications (app\components\LayoutUI.tsx:63:10)
+  61 |       channel = supabase
+  62 |         .channel(`user-notifications-${user.id}`)
+> 63 |         .on(
+     |          ^
+  64 |           'postgres_changes',
+  65 |           { event: 'INSERT', schema: 'public', table: 'notifications', filter: `user_id=eq...
+  66 |           async (payload) => {
+[browser] Image with src "/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[browser] ⨯ unhandledRejection: Error: cannot add `postgres_changes` callbacks for realtime:user-notifications-90dea1d7-cffd-4b31-9bb0-6ca253956a75 after `subscribe()`.
+    at setupNotifications (app\components\LayoutUI.tsx:63:10)
+  61 |       channel = supabase
+  62 |         .channel(`user-notifications-${user.id}`)
+> 63 |         .on(
+     |          ^
+  64 |           'postgres_changes',
+  65 |           { event: 'INSERT', schema: 'public', table: 'notifications', filter: `user_id=eq...
+  66 |           async (payload) => {
+[browser] Image with src "/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[browser] ⨯ unhandledRejection: Error: cannot add `postgres_changes` callbacks for realtime:user-notifications-90dea1d7-cffd-4b31-9bb0-6ca253956a75 after `subscribe()`.
+    at setupNotifications (app\components\LayoutUI.tsx:63:10)
+  61 |       channel = supabase
+  62 |         .channel(`user-notifications-${user.id}`)
+> 63 |         .on(
+     |          ^
+  64 |           'postgres_changes',
+  65 |           { event: 'INSERT', schema: 'public', table: 'notifications', filter: `user_id=eq...
+  66 |           async (payload) => {
