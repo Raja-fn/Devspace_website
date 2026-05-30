@@ -50,3 +50,4 @@
 ✓ Ready in 1354ms
 
 ○ Compiling /feed ...
+ GET /feed 200 in 17.5s (next.js: 13.1s, proxy.ts: 606ms, application-code: 3.8s)
