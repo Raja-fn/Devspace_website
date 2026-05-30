@@ -2,11 +2,10 @@
   "name": "devspace-web",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
+   "scripts": {
+    "dev": "next dev --no-turbopack",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "start": "next start"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.105.4",

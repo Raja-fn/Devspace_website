@@ -1,19 +1,8 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'hybvsgxqstnxamdkijsk.supabase.co',
-      },
-      {
-        protocol: 'https',
-        hostname: 'lh3.googleusercontent.com',
-      }
-    ]
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  experimental: {
+    turbopack: false,
   },
-  allowedDevOrigins: ['192.168.1.18'],
 };
 
-export default nextConfig;
+module.exports = nextConfig;
