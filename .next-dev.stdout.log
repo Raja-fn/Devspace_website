@@ -34,3 +34,4 @@
 ✓ Ready in 997ms
 
 ○ Compiling / ...
+ GET / 200 in 18.5s (next.js: 16.0s, application-code: 2.5s)
