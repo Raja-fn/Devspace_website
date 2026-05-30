@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
-import { Users, Search, UserPlus, Heart, MessageCircle, TrendingUp } from 'lucide-react'
+import { Users, Search, UserPlus, Heart, MessageCircle, TrendingUp, Zap } from 'lucide-react'
 import { supabase } from '@/lib/supabase'
 import { TopNavbar, LeftSidebar, RightSidebar, MobileBottomNav, FullScreenLoader, Avatar } from '@/app/components/LayoutUI'
 import { ProfileCard, LeaderboardEntry, AuraBadge } from '@/app/components/PremiumComponents'
