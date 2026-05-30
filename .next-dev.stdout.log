@@ -24,3 +24,11 @@
  GET /leaderboard 200 in 1469ms (next.js: 1233ms, application-code: 236ms)
  GET /feed 200 in 89ms (next.js: 12ms, proxy.ts: 12ms, application-code: 66ms)
  GET / 200 in 379ms (next.js: 6ms, application-code: 373ms)
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.7:3000
+- Environments: .env.local
+✓ Ready in 1280ms
+- Experiments (use with caution):
+  ? turbopack (invalid experimental key)
+
